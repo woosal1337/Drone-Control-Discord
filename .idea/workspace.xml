@@ -5,24 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d23f93-1ef6-4d5b-bc19-2e19b744256c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/droneControl/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Drone-Control-Discord.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/build.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/elon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/slap.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/slap2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bot/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cogs/fun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/bot/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/db.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/data/db/build.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/data/images/elon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/data/images/slap.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/data/images/slap2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/droneControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/launcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/lib/bot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/lib/cogs/fun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/lib/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/lib/db/bot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DronCord/lib/db/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/Drone-Control-Discord.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/data/db/build.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/data/images/elon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/data/images/slap.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/data/images/slap2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/launcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/lib/bot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/lib/cogs/fun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/lib/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/lib/db/bot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/lib/db/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/droneControl/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +76,12 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.launcher (3)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,20 +104,108 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DronCord" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Vusal\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/droneControl/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot/lib/cogs/fun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="launcher (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DronCord" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/botFuncs/launcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="launcher (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DronCord" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/launcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="launcher (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DronCord" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DronCord/launcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="launcher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DronCord" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot/launcher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.launcher (3)" />
+        <item itemvalue="Python.launcher (2)" />
+        <item itemvalue="Python.launcher (1)" />
+        <item itemvalue="Python.launcher" />
+        <item itemvalue="Python.fun" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +237,9 @@
       <workItem from="1611615237319" duration="1225000" />
       <workItem from="1611690735014" duration="200000" />
       <workItem from="1611690952877" duration="351000" />
-      <workItem from="1611694875064" duration="2606000" />
+      <workItem from="1611694875064" duration="4067000" />
+      <workItem from="1611702158782" duration="430000" />
+      <workItem from="1611702615386" duration="5735000" />
     </task>
     <servers />
   </component>
@@ -150,7 +263,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Drone_Control_Discord$main.coverage" NAME="main Coverage Results" MODIFIED="1611697826693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3" />
+    <SUITE FILE_PATH="coverage/DronCord$launcher__3_.coverage" NAME="launcher (3) Coverage Results" MODIFIED="1611709991312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3" />
     <SUITE FILE_PATH="coverage/Drone_Control_Discord$fun.coverage" NAME="fun Coverage Results" MODIFIED="1611534803448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/cogs" />
     <SUITE FILE_PATH="coverage/Drone_Control_Discord$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1611535527343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DronCord$launcher__1_.coverage" NAME="launcher (1) Coverage Results" MODIFIED="1611705633260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3" />
+    <SUITE FILE_PATH="coverage/DronCord$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1611704867968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3" />
+    <SUITE FILE_PATH="coverage/DronCord$launcher__2_.coverage" NAME="launcher (2) Coverage Results" MODIFIED="1611707241466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3" />
+    <SUITE FILE_PATH="coverage/DronCord$fun.coverage" NAME="fun Coverage Results" MODIFIED="1611702954997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3" />
   </component>
 </project>
